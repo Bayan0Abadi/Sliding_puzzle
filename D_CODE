@@ -1,0 +1,44 @@
+# Sliding_puzzle
+How to make a sliding puzzle? 
+
+#STEP(1):
+Start the game:
+Create a grid (for example 3x3).
+Fill the grid with numbers 1 → 8 and one empty space.
+
+#STEP(2):
+Show the board:
+Display the grid to the player.
+
+#STEP(3):
+Player chooses a tile:
+The player clicks or selects a tile they want to move.
+
+#STEP(4):
+Check if move is possible:
+Find the empty space location.
+Check if the chosen tile is next to the empty space (above, below, left, or right).
+
+#STEP(5):
+If move is valid:
+Swap the chosen tile with the empty space.
+
+#STEP(6):
+If move is not valid:
+Show message: “You can only move tiles next to the empty space.”
+
+#STEP(6):
+Update the board:
+Display the new grid after the swap.
+
+#STEP(7):
+Check for winning condition
+	•	If all tiles are in order (1 → 8 and empty at the end), player wins.
+	•	Else → go back to step 3.
+
+ #STEP(8):
+ Repeat:
+ Keep looping until the puzzle is solved.
+ 
+
+
